@@ -11,3 +11,11 @@ The trained model comprises three components in its pipeline:
 * clinical NER with seven categories.
 
 
+## Installation
+
+Assuming, spaCy is installed and you have Python 3.6+, the model can be easily install by using the direct link:
+
+`pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg-0.0.1.tar.gz`
+
+
+
