@@ -11,6 +11,11 @@ The trained model comprises three components in its pipeline:
 * clinical NER with seven categories.
 
 
+TODO:
+## Put example of NER with displacy and ent
+
+## show metrics for each of categories and the number of tokens it is trained on
+
 ## Installation
 
 Assuming, spaCy is installed and you have Python 3.6+, the model can be easily install by using the direct link:
