@@ -36,6 +36,8 @@ doc = med7(text)
 [(ent.text, ent.label_) for ent in doc.ents]
 ```
 
+and the resulting output:
+
 ```
 [('Magnesium hydroxide', 'DRUG'),
  ('400mg/5ml', 'STRENGTH'),
