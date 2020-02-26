@@ -30,13 +30,18 @@ import spacy
 
 med7 = spacy.load("en_core_med7_lg")
 
-text = "A patient was prescribed Magnesium hydroxide 400mg/5ml suspension Sig: 30 ml for the next 5 days."
+text = "A patient was prescribed Magnesium hydroxide 400mg/5ml suspension, Sig: 30 ml for the next 5 days."
 doc = med7(text)
 
 [(ent.text, ent.label_) for ent in doc.ents]
 ```
 
-
-
+```
+[('Magnesium hydroxide', 'DRUG'),
+ ('400mg/5ml', 'STRENGTH'),
+ ('suspension', 'FORM'),
+ ('30 ml', 'DOSAGE'),
+ ('for the next 5 days', 'DURATION')]
+```
 
 
