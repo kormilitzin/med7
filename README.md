@@ -30,13 +30,15 @@ For example, the med7 model identifies correctly all seven entities in the follo
 
 ![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.42.04.png)
 
+The model achieves overall (micro) F1 score of 93.152 and for each of the categories:
 
-TODO:
-## Put example of NER with displacy and ent
 
-## show metrics for each of categories and the number of tokens it is trained on
 
 ## Installation
+
+It is recommended to create a dedicated virtual inviroment and install all required packages in there. For example, in the case of anaconda distribution of Python:
+
+
 
 Assuming you have the most recent version of spaCy (2.2.3) and Python 3.6+, the model can be easily installed by downloading from the direct link:
 
@@ -50,8 +52,18 @@ import spacy
 
 med7 = spacy.load("en_core_med7_lg")
 
-text = "A patient was prescribed Magnesium hydroxide 400mg/5ml suspension, Sig: 30 ml for the next 5 days."
+# create distinct colours for labels
+col_dict = {}
+seven_colours = ['#e6194B', '#3cb44b', '#ffe119', '#ffd8b1', '#f58231', '#f032e6', '#42d4f4']
+for label, colour in zip(med7.pipe_labels['ner'], seven_colours):
+    col_dict[label] = colour
+
+options = {'ents': med7.pipe_labels['ner'], 'colors':col_dict}
+
+text = 'A patient was prescribed Magnesium hydroxide 400mg/5ml suspension PO of total 30ml  bid for the next 5 days.'
 doc = med7(text)
+
+spacy.displacy.render(doc, style='ent', jupyter=True, options=options)
 
 [(ent.text, ent.label_) for ent in doc.ents]
 ```
@@ -62,8 +74,10 @@ and the resulting output:
 [('Magnesium hydroxide', 'DRUG'),
  ('400mg/5ml', 'STRENGTH'),
  ('suspension', 'FORM'),
- ('30 ml', 'DOSAGE'),
+ ('PO', 'ROUTE'),
+ ('30ml', 'DOSAGE'),
+ ('bid', 'FREQUENCY'),
  ('for the next 5 days', 'DURATION')]
 ```
 
-
+This example can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff#scrollTo=g8V6OLMsZt4u)
