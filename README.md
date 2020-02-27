@@ -89,6 +89,8 @@ and the resulting output:
  ('for the next 5 days', 'DURATION')]
 ```
 
+It is straightforward to extract relations between the entities, since Med7 has both `parser` and `tagger` pipelines, similar to the [example here.](https://github.com/explosion/spaCy/blob/master/examples/information_extraction/entity_relations.py)
+
 This example can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff#scrollTo=g8V6OLMsZt4u)
 
 
