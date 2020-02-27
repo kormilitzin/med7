@@ -47,7 +47,8 @@ activate and install spaCy:
 ```
 (base) conda activate med7
 
-(med7) pip install -U spacy```
+(med7) pip install -U spacy
+```
 
 once all went through smoothly, install the Med7 model:
 
