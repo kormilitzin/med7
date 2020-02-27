@@ -40,7 +40,7 @@ It is recommended to create a dedicated virtual environment and install all rece
 
 create a new virtual environment:
 
-`(base) user\home:~user$ conda create -n med7 python=3.7`
+`(base) conda create -n med7 python=3.7`
 
 activate and install spaCy:
 
