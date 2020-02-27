@@ -23,7 +23,7 @@ Self-supervised pre-training has shown its efficientcy in achieving good results
 The models were pre-trained on the entire MIMIC-III corpus, comprsing a collection of 2,083,054 documents with the total of 3,129,334,419 words. Models' losses (logarithmically scaled) are presented below:
 
 
-<img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="50">
+<img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="500">
 `![Image description](https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png)`
 
 
