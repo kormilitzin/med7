@@ -92,6 +92,13 @@ and the resulting output:
 This example can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff#scrollTo=g8V6OLMsZt4u)
 
 
+## Citing
+
+This model is the very first step in our programme on clinical NLP for electronic health records (cNLPEHR). We are committed to developing FAIR - Findable, Accessible, Interoperable and Reusable tools which will benefit the wider community. 
+
+If you found this model useful in your research, please cite as:
+
+
 
 
 
