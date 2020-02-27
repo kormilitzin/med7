@@ -26,6 +26,9 @@ The models were pre-trained on the entire MIMIC-III data, comprsing a collection
 <img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="350">
 
 
+For example, the med7 model identifies correctly all seven entities in the following example and highlights them in different colours for better visualisation:
+
+![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.32.48.png)
 
 
 TODO:
