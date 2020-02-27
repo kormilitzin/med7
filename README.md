@@ -36,14 +36,20 @@ The model achieves overall (micro) F1 score of 93.152 and for each of the catego
 
 ## Installation
 
-It is recommended to create a dedicated virtual inviroment and install all required packages in there. For example, in the case of anaconda distribution of Python:
+It is recommended to create a dedicated virtual inviroment and install all recent required packages in there. The trained model was tested with spaCy version 2.2.3 and Python 3.7. For example, if the [anaconda distribution of Python](https://www.anaconda.com/distribution/#download-section) is already installed:
 
+create a new virtual environment:
 
+`(base) user\home:~user$ conda create -n med7 python=3.7`
 
-Assuming you have the most recent version of spaCy (2.2.3) and Python 3.6+, the model can be easily installed by downloading from the direct link:
+activate and install spaCy:
 
-`pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg-0.0.1.tar.gz`
+`(base) conda activate med7`
+`(med7) pip install -U spacy`
 
+once all went through smoothly, install the Med7 model:
+
+`(med) pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg-0.0.1.tar.gz`
 
 ## Usage
 
