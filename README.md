@@ -28,7 +28,7 @@ The models were pre-trained on the entire MIMIC-III data, comprsing a collection
 
 For example, the med7 model identifies correctly all seven entities in the following example and highlights them in different colours for better visualisation:
 
-![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.34.45.png)
+![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.42.04.png)
 
 
 TODO:
