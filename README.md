@@ -25,11 +25,6 @@ The models were pre-trained on the entire MIMIC-III data, comprising a collectio
 
 <img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="350">
 
-
-For example, the med7 model identifies correctly all seven entities in the following example and highlights them in different colours for better visualisation:
-
-![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.42.04.png)
-
 The model achieves overall (micro) F1 score of 93.152 and for each of the categories:
 
 
@@ -76,6 +71,11 @@ spacy.displacy.render(doc, style='ent', jupyter=True, options=options)
 
 [(ent.text, ent.label_) for ent in doc.ents]
 ```
+
+The Med7 model identifies correctly all seven entities in the following example and highlights them in different colours for better visualisation:
+
+![](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-27%20at%2013.42.04.png)
+
 
 and the resulting output:
 
