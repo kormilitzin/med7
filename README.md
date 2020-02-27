@@ -20,7 +20,7 @@ Self-supervised pre-training has shown its efficientcy in achieving good results
 | 256      |      16  |   10000         |     66.1      |    332 | [Link](https://med7.s3.eu-west-2.amazonaws.com/t2v/model_256_16_332.bin) |
 | 300      |      8  |    20000       |       89.6      |    338 | [Link](https://med7.s3.eu-west-2.amazonaws.com/t2v/model_300_08_338.bin) |
 
-The models were pre-trained on the entire MIMIC-III corpus, comprsing a collection of 2,083,054 documents with the total of 3,129,334,419 words. Models' losses (logarithmically scaled) are presented below:
+The models were pre-trained on the entire MIMIC-III data, comprsing a collection of 2,083,054 documents with the total of 3,129,334,419 words. Models' losses (logarithmically scaled) are presented below:
 
 
 <img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="350">
