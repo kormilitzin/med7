@@ -91,7 +91,16 @@ and the resulting output:
 
 It is straightforward to extract relations between the entities, since Med7 has both `parser` and `tagger` pipelines, similar to [this example.](https://github.com/explosion/spaCy/blob/master/examples/information_extraction/entity_relations.py)
 
+<!---The fact that the trained Med7 model comprises both, the `tagger` and `parser` components, it is possible to find relationships among the entities, [inspired by this example.](https://github.com/explosion/spaCy/blob/master/examples/information_extraction/entity_relations.py) A very simple example:--->
+
+
+
+
+
+
 The code in above can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff#scrollTo=g8V6OLMsZt4u)
+
+
 
 
 ## Citing
