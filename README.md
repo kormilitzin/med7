@@ -25,9 +25,7 @@ The models were pre-trained on the entire MIMIC-III data, comprising a collectio
 
 <img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="350">
 
-The model achieves overall (micro) F1 score of 93.152 and for each of the categories:
-
-
+The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) across all seven categories.
 
 ## Installation
 
