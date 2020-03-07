@@ -96,7 +96,7 @@ It is straightforward to extract relations between the entities, since Med7 has 
 
 
 
-The code in above can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff#scrollTo=g8V6OLMsZt4u)
+The code in above can also be run in [Colab](https://colab.research.google.com/drive/1mY36G-vzBc_x4DGAYfyeb0OLIUcRMgff)
 
 
 
