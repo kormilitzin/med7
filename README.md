@@ -107,13 +107,14 @@ This model is the very first step in our programme on clinical NLP for electroni
 
 If you found this model useful, please cite as:
 
+```
 @article{kormilitzin2020med7,
   title={Med7: a transferable clinical natural language processing model for electronic health records},
   author={Kormilitzin, Andrey and Vaci, Nemanja and Liu, Qiang and Nevado-Holgado, Alejo},
   journal={arXiv preprint arXiv:2003.01271},
   year={2020}
 }
-
+```
 
 
 
