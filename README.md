@@ -46,10 +46,9 @@ activate and install spaCy:
 ```
 
 once all went through smoothly, install the Med7 model:
+ `(med) pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg.tar.gz`
 
-<!--- `(med) pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg.tar.gz`--->
-
-`(med) pip install https://www.dropbox.com/s/xbgsy6tyctvrqz3/en_core_med7_lg.tar.gz?dl=1`
+<!--- (med) pip install https://www.dropbox.com/s/xbgsy6tyctvrqz3/en_core_med7_lg.tar.gz?dl=1`--->
 
 ## Usage
 
