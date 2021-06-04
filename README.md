@@ -1,9 +1,12 @@
 # Med7
 
-**the model is not (yet) compatible with new spaCy 3.0**
+This repository dedicated to the first release of [Med7: a transferable clinical natural language processing model for electronic health records](https://www.sciencedirect.com/science/article/pii/S0933365721000798), compatible with [spaCy](https://spacy.io) 2 and 3, for clinical named-entity recognition (NER) tasks. The `en_core_med7_lg` model is trained on MIMIC-III free-text electronic health records and is able to recognise 7 categories:
 
-This repository dedicated to the first release of [Med7: a transferable clinical natural language processing model for electronic health records](https://arxiv.org/abs/2003.01271), compatible with [spaCy](https://spacy.io), for clinical named-entity recognition (NER) tasks. The `en_core_med7_lg` model is trained on MIMIC-III free-text electronic health records and is able to recognise 7 categories:
+**UPDATE: experimental model with Transformers (spaCy 3)**
 
+`pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_trf.tar.gz`
+
+This is RoBERTa-base implementation. Future works will improve its performance and introduce new feautres.
 
 ![Image description](https://github.com/kormilitzin/med7/blob/master/images/Screenshot%202020-02-26%20at%2018.18.54.png)
 
