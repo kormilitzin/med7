@@ -4,7 +4,7 @@ This repository dedicated to the first release of [Med7: a transferable clinical
 
 **UPDATE: experimental model with Transformers (spaCy 3)**
 
-`https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_trf.tar.gz`
+`pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_trf.tar.gz`
 
 This is RoBERTa-base implementation. Future works will improve its performance and introduce new feautres. Some entities **may not** be identified correctrly.
 
