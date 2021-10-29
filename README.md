@@ -13,7 +13,7 @@ The trained model comprises three components in its pipeline:
 * parser
 * clinical NER with seven categories.
 
-Self-supervised pre-training has shown its efficiency in achieving good results even with a small number of gold-annotated training data. We have experimented with the `spacy pretrain` approach and trained a number of weights for model initialisation for various parameters of the width and depth of convolutional layers. Following the notations of [spaCy pretrain](https://spacy.io/api/cli#pretrain) with `--width`, `--depth`, `--embed-rows` flags for width, depth and the number of embedding rows respectively:
+<!--- Self-supervised pre-training has shown its efficiency in achieving good results even with a small number of gold-annotated training data. We have experimented with the `spacy pretrain` approach and trained a number of weights for model initialisation for various parameters of the width and depth of convolutional layers. Following the notations of [spaCy pretrain](https://spacy.io/api/cli#pretrain) with `--width`, `--depth`, `--embed-rows` flags for width, depth and the number of embedding rows respectively:
 
 | --width  | --depth | --embed-rows    |model size (MB) | epochs | URL      |
 | --------:| -------:| -------------:  |--------------: |------: |-----:    |
@@ -28,7 +28,7 @@ The models were pre-trained on the entire MIMIC-III data, comprising a collectio
 
 <img src="https://github.com/kormilitzin/med7/blob/master/images/myfile_1-1.png" width="350">
 
-The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) across all seven categories.
+The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) across all seven categories.--->
 
 ## Installation
 
