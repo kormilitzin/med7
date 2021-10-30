@@ -30,7 +30,7 @@ The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) a
 
 ## Installation
 
-It is recommended to create a dedicated virtual environment and install all recent required packages in there. The trained model was tested with spaCy version 3.1.4 and Python 3.9. For example, if the [anaconda distribution of Python](https://www.anaconda.com/distribution/#download-section) is already installed:
+It is recommended to create a dedicated virtual environment and install all recent required packages in there. The trained model was tested with spaCy version 3.1.3 and Python 3.9. For example, if the [anaconda distribution of Python](https://www.anaconda.com/distribution/#download-section) is already installed:
 
 create a new virtual environment:
 
