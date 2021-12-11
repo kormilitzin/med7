@@ -56,7 +56,10 @@ Transformer-based model:
 
 This is RoBERTa-base implementation. Future works will improve its performance and introduce new feautres. Some entities **may not** be identified correctrly.
 
+***Notice*** You can download `en_core_med7_lg` for spaCy v2 here: https://www.dropbox.com/s/xbgsy6tyctvrqz3/en_core_med7_lg.tar.gz?dl=1
+and then 
 
+`pip install /path/to/downloaded/spacy2_model`
 <!--- ( `(med) pip install https://med7.s3.eu-west-2.amazonaws.com/en_core_med7_lg.tar.gz`--->
 
 <!--- (med) pip install https://www.dropbox.com/s/xbgsy6tyctvrqz3/en_core_med7_lg.tar.gz?dl=1`--->
