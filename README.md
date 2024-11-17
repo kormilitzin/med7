@@ -30,9 +30,10 @@ The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) a
 
 ## UPDATE
 
-November 2024: This readme file is updated to reflect new versions of pip that allow install.
+November 2024: This readme file is updated to reflect new versions of pip that allow install. This is because pip >23.0 requires addition of "@" for dependency speficiations to work. See original [pip documentations](https://pip.pypa.io/en/stable/cli/pip_install/#:~:text=Install%20a%20particular%20source%20archive%20file%20following%20direct%20references) for details.
 
-See [tutorial for reproducible example](tutorial/example.ipynb) which has a requirements.txt 
+See [tutorial for reproducible example](tutorial/example.ipynb) which has a environment.yml that is a dump of conda virtual environment for replication. Note in the example.ipynb,transformer model "en_core_med7_trf" is used.
+
 
 ## Installation
 
@@ -54,11 +55,12 @@ once all went through smoothly, install the Med7 model from the Huggingface Mode
 
 Vectors model:
 
-`pip install https://huggingface.co/kormilitzin/en_core_med7_lg/resolve/main/en_core_med7_lg-any-py3-none-any.whl`
+`pip install "en-core-med7-lg @ https://huggingface.co/kormilitzin/en_core_med7_lg/resolve/main/en_core_med7_lg-any-py3-none-any.whl"`
 
 Transformer-based model:
 
-`pip install https://huggingface.co/kormilitzin/en_core_med7_trf/resolve/main/en_core_med7_trf-any-py3-none-any.whl`
+
+`pip install "en-core-med7-trf @ https://huggingface.co/kormilitzin/en_core_med7_trf/resolve/main/en_core_med7_trf-any-py3-none-any.whl"`
 
 This is RoBERTa-base implementation. Future works will improve its performance and introduce new feautres. Some entities **may not** be identified correctrly.
 
