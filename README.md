@@ -28,6 +28,12 @@ The models were pre-trained on the entire MIMIC-III data, comprising a collectio
 
 The model achieved a lenient (strict) micro-averaged F1 score of 0.957 (0.893) across all seven categories.--->
 
+## UPDATE
+
+November 2024: This readme file is updated to reflect new versions of pip that allow install.
+
+See [tutorial for reproducible example](tutorial/example.ipynb) which has a requirements.txt 
+
 ## Installation
 
 It is recommended to create a dedicated virtual environment and install all recent required packages in there. The trained model was tested with spaCy version >=3.1 and Python >=3.7. For example, if the [anaconda distribution of Python](https://www.anaconda.com/distribution/#download-section) is already installed:
